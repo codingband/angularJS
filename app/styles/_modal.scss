@@ -1,0 +1,33 @@
+.modal-content{
+    display: inline-block;
+    width: 100%;
+    border: none !important; 
+} 
+.aboutus .modal-header-title {
+    position: relative;
+    top: -20px;
+    background-color: $white;
+    height: 50px;
+    font-family: $mainFont;
+    text-align: center;
+}
+.aboutus .modal-header-title h1 {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    color: rgb(137, 178, 190) !important;
+    padding-top: 15px !important;
+}
+.aboutus .panel-body {
+    background-color: rgb(137, 178, 190);
+    margin-top: -20px;
+}
+.panel-body ul li {
+    color: $white !important;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.modal-content .aboutus {
+    background-color: transparent !important;
+}

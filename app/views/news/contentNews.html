@@ -1,0 +1,20 @@
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+  <div class="blog-page-container-2 col-xs-12">
+    <div class="blogtitle">
+      <div>{{i18n['latest-posts'] | uppercase }}</div>
+    </div>
+    <div class="blog-text">
+      <div ng-repeat="blog in data.blogs">
+        <div class="blog-date latoblog">
+          {{blog.dateBlog.day}}<br>
+          <div class="blog-datef">{{blog.dateBlog.month}}</div>
+        </div>
+        <div class="blog-title">
+            <h2 class="ht">{{ blog.title }}</h2>
+        </div><br />
+        <div ng-bind-html="blog.content | toTrusted"></div>
+        <br />
+      </div>
+    </div>
+  </div>
+</div>

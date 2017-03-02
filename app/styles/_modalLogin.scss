@@ -1,0 +1,23 @@
+.contentLogin .contentInputsLogin{
+    margin:25px;
+    
+}
+.contentLogin .contentButtonLogin{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-right: 0;
+    width: 90px;
+    
+}
+.contentInputsLogin input {
+    height: 33px;
+    border: medium none;
+    @include border-radius(4px);
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.spinner-login{
+    font-size: 20px !important;
+}

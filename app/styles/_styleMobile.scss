@@ -1,0 +1,20 @@
+body.portrait{
+    @media only screen{
+        .container {
+            width: 295px ! important;
+        }
+
+        #containerLeftMenuMobile{
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+    }
+}
+
+body.landscape{
+    @media only screen{
+        .container {
+            width: 580px ! important;
+        }
+    }
+}

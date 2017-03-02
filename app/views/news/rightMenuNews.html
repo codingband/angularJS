@@ -1,0 +1,20 @@
+<div ng-if="connection.stateConnection">
+  <div class="col-lg-12 col-md-12 col-sm-12 ">
+    <div class="side-header">
+      <h2 class="pontano">
+        {{i18n['winning-right-now']| uppercase }}
+      </h2>
+    </div>
+    <div class="blog-latest-winner  col-xs-12" >
+            <div id="last-winners">
+              <ul class="last-winners">
+                <li ng-repeat="win in data.lastedWinners">
+                  <span class="last-winners-username">{{win.winner}}</span>
+                  <span class="last-winners-amount">{{win.amount}}</span>
+                  <span class="last-winners-name-game">{{win.game.shortName}}</span>
+                </li>
+              </ul>
+            </div>
+    </div>
+  </div>
+</div>

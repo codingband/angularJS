@@ -1,0 +1,101 @@
+.transactions-container{
+  background-color: #C4C0BF;
+  color: #333;
+  width: 900px !important;
+}
+
+.transactions-container .nav-tabs >li >a{
+  color: #333 !important;
+}
+.transactions-container .nav-tabs >.active > a{
+  background-color: #C4C0BF !important;
+  border: 0 none;
+  color:#6c0b0b !important;
+}
+
+.transactions-container .panel-heading{
+  background: $grey !important;
+}
+
+.transactions-container .paneltable{
+  background-color: #B1AEAD !important;
+  margin: 10px 10px 5px 10px;
+
+}
+.content-subtabs hr{
+    width: 100%;
+    margin-top: 0;
+    clear: both;
+}
+.transactions-container .table thead{
+  background: $grey;
+  color: $white;
+  font-weight: bold;
+}
+.transactions-container .table {
+
+}
+input#dateFrom, input#dateTo {
+    height: 36px;
+}
+
+.panelfiltergametransactions {
+  width: 100%;
+  margin: 10px 10px 5px 10px;
+}
+
+.panelfiltergametransactions .menuoption{
+  display: inline-block;
+ vertical-align: middle;
+  margin: 0 12px 0 0;
+}
+.panelfiltergametransactions .datepicker{
+ width: 170px;
+
+}
+//
+.contentTransaction{
+    width: 100%;
+    color: black;
+}
+.contentTabsTransaction{
+    width: 100%;
+    display: table;
+}
+.contentURLTrasaction{
+    display: table;
+    width: 100%;
+}
+.contentTransactionTab{
+    background: #C5C1C0;
+    border: none;
+    color: black;
+    box-shadow: none;
+    padding: 20px;
+    width: 100%;
+}
+
+@media only screen and(max-width: 992px){
+    .contWageringLimit{
+        margin-top: 370px;
+    }
+    .contLossLimit{
+        margin-top: 370px;
+    }   
+}
+@media only screen and(max-width: 400px){
+    .contWageringLimit{
+        margin-top: 380px;
+    }
+    .contLossLimit{
+        margin-top: 380px;
+    }   
+}
+@media only screen and(max-width: 345px){
+    .contWageringLimit{
+        margin-top: 390px;
+    }
+    .contLossLimit{
+        margin-top: 390px;
+    }   
+}

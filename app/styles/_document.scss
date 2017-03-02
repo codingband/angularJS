@@ -1,0 +1,61 @@
+.content-documents h3.title-center-text{
+    text-align: center;
+    font-weight: bold;
+    left: 0px;
+}
+.content-documents ol.parentOL{
+    margin-left: 0;
+    font-size: 12px;
+    font-family: $mainFont;
+    color: #000;
+    text-align: left;
+    line-height: 19px;
+    font-weight: 400;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.content-documents h4{
+    font-weight: bold;
+}
+.content-documents h4.underline{
+    text-decoration: underline;
+}
+.content-documents ol li, .content-documents ul li{
+    list-style-type: decimal;
+    text-align: left;
+}
+.content-documents ol li.noNumber{
+    list-style-type: none;
+}
+.content-documents ol ol{
+    margin-left: 0;
+}
+.content-documents ol ol li{
+    list-style-type: decimal;
+}
+.content-documents ul li{
+    list-style-type: square !important;
+    font-weight: normal !important;
+    color: black !important;
+}
+.content-documents ul.type-a li{
+    list-style-type: lower-alpha !important;
+}
+.content-documents p.paragraph-black{
+    color: black !important;
+    text-align: left;
+}
+.content-documents ul.list-RG li, .content-documents ol.list-RG li{
+    margin-left: 0;
+}
+
+@media only screen and(max-width:768px){    
+    .content-documents ol.parentOL {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .content-documents h3 {
+        margin-top: 40px;
+    }
+}

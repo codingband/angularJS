@@ -1,0 +1,182 @@
+/*
+Theme Name: Cyberplayer-v2.1
+Theme URI:
+Author: Cyberplay
+Author URI:
+Description: theme for cyberplay site
+Version: 1
+License:
+License URI:
+Text Domain: cyberplay
+*/
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+//@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "global_variables";
+@import "ie";
+@import "screen";
+@import "generealPosts";
+@import "marketingPage";
+@import "footer";
+@import "header";
+@import "modal";
+@import "helpPanel";
+@import "register";
+@import "help";
+@import "contactUs";
+@import "forgotPassword";
+@import "promotions";
+@import "affiliates";
+@import "modalLogin";
+//casino
+@import "casino/casinoSlider";
+@import "casino/casinoNavBar";
+@import "casino/gameCategory";
+@import "casino/gameList";
+@import "casino/headerGame";
+@import "casino/gamePage";
+@import "casino/slider";
+@import "casino/subMenuHeader.scss";
+@import "casino/tripVegas.scss";
+@import "casino/homeCasino.scss";
+//sports
+@import "sports/sports";
+
+//payments
+@import "countries";
+@import "payments";
+//user account
+@import "confirm";
+@import "confirmation";
+@import "balanceDetails";
+@import "bonus";
+@import "myaccount";
+@import "profile";
+@import "transactions";
+@import "congratulations";
+//blog
+@import "blog/blogMenuRight";
+//modalMessage
+@import "modalMessage";
+@import "slickContent";
+//sales area
+@import "casino/salesArea";
+//document
+@import "document";
+//security
+@import "security";
+@import "clockContent";
+//mobile
+@import "styleMobile";
+
+@import "relityCheckTab";
+@import "error404";
+/*--------------- GENERAL - LAYOUT -------------------------------------------------------*/
+
+html, body {
+    width:    100%;
+    height:   100%;
+    padding:  0;
+    margin:   0;
+    overflow: visible; /* when page gets too small for container min-width/height */
+    color:#333;
+    font-family: 'Lato',sans-serif;
+}
+
+.clickeable{
+    cursor: pointer;
+}
+/*hidden content specify Sport link*/
+.hiddenContent{
+    display: none;
+}
+.displayLoading, .displayBlock, .displayLoadingContent{
+    display: block;
+}
+label.errorMessageFormValidation, div.messageInsftFounds div{
+    color: #bd1c1c !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+a:focus {
+    outline: none;
+}
+
+
+///add for new loading styles
+/*
+.LoadingDiv{
+  background: #1B2527; 
+  width: 100%;
+  height: 100%;;
+  position: absolute;
+  z-index: 600;
+  top:0;
+  //top: 50%;
+  //margin-top: -150px;
+  //left: 50%;
+  //margin-left: -150px;  
+    
+    
+}
+
+.preload-juggle {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -150px;
+}
+.preload-juggle div {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border-radius: 10.5px;
+  background: #8BC5D6;
+  margin-top: 150px;
+  margin-left: 150px;
+  animation: juggle 2.1s linear infinite;
+}
+.preload-juggle div:nth-child(1) {
+  animation-delay: -0.7s;
+    background: #FFD00A;
+}
+.preload-juggle div:nth-child(2) {
+  animation-delay: -1.4s;
+    background: #38515A;
+}
+
+@keyframes juggle {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  12.5% {
+    transform: translateX(27.5px) translateY(-57px) scale(1.1);
+  }
+  25% {
+    transform: translateX(55px) translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  37.5% {
+    transform: translateX(27.5px) translateY(57px);
+  }
+  50% {
+    transform: translateX(0px) translateY(0px);
+  }
+  62.5% {
+    transform: translateX(-27.5px) translateY(-57px) scale(1.1);
+    animation-timing-function: ease-in;
+  }
+  75% {
+    transform: translateX(-55px) translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  87.5% {
+    transform: translateX(-27.5px) translateY(57px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+} */

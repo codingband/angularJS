@@ -1,0 +1,339 @@
+footer {
+    background-color: #1a1c1d;
+}     
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-family: $mainFont;
+    font-size: 10px;
+    font-weight:700;
+}
+footer .copyright, .text-center{
+    color: #4069b3;
+    font-size: 9px;
+    font-weight: 300;
+    text-align: center;
+}
+.img-responsive {
+    display: inline-block !important;
+}
+h2.ng-binding{
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    font-family: $mainFont;
+    color: #fff;
+}
+.footer-image {
+    background: inline-image('#{$images_path}images/footer-viks.png');
+}
+.logo-nyx {
+    background-position: 0px -177px;
+    width: 70px;
+    height: 30px
+}
+.logo-coupon{
+    background-position: 0px -1px;
+    width: 60px;
+    height: 40px;
+}
+.logo-eco-playz{
+    background-position: 0px -50px;
+    width: 100px;
+    height: 40px;
+}
+.logo-intadebit{
+    background-position: -110px -50px;
+    width: 100px;
+    height: 40px;
+}
+.logo-neteller{
+    background-position: -65px -5px;
+    width: 120px;
+    height: 40px;
+}
+.logo-nordea{
+    background-position: -360px -50px;
+    width: 90px;
+    height: 40px;
+}
+.logo-pay-safecard{
+    background-position: 0px -91px;
+    width: 100px;
+    height: 40px;
+}
+.logo-skrill-direct{
+    background-position: -110px -87px;
+    width: 120px;
+    height: 40px;
+}
+.logo-skrill{
+    background-position: -250px -87px;
+    width: 90px;
+    height: 40px;
+}
+.logo-soft{
+    background-position: -250px -130px;
+    width: 100px;
+    height: 40px;
+}
+.logo-trustly{
+    background-position: -358px -90px;
+    width: 110px;
+    height: 40px;
+}
+.logo-visa-debit{
+    background-position: 0px -130px;
+    width: 70px;
+    height: 40px;
+}
+.logo-visa{
+    background-position: -120px -128px;
+    width: 80px;
+    height: 40px;
+}
+.logo-visa-electron{
+    background-position: -500px -2px;
+    width: 80px;
+    height: 40px;
+}
+.logo-master-card{
+    background-position: -200px -2px;
+    width: 60px;
+    height: 40px;
+}
+.logo-euteller{
+    background-position: -248px -51px;
+    width: 110px;
+    height: 40px;
+}
+.logo-fast-bank-transfer{
+    background-position: -270px -2px;
+    width: 90px;
+    height: 40px;
+}
+.logo-use-myservice{
+    background-position: -369px -2px;
+    width: 110px;
+    height: 40px;
+}
+.logo-curacao{
+    background-position: -5px -230px;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+}
+.logo-gambling-commission{
+    background-position: -100px -163px;
+    cursor: pointer;
+    width: 193px;
+    height: 50px;
+}
+.logo-18{
+    background-position: -298px -166px;
+    width: 50px;
+    height: 50px;
+}
+.logo-net-end{
+    background-position: -360px -166px;
+    width: 118px;
+    height: 50px;
+}
+.logo-micrograming{
+    background-position: -70px -230px;
+    width: 150px;
+    height: 50px;
+}
+.logo-igt{
+    background-position: -235px -225px;
+    width: 60px;
+    height: 50px;
+}
+.logo-edict{
+    background-position: -490px -166px;
+    width: 90px;
+    height: 50px;
+}
+.logo-evolution-gaming{
+    background-position: -475px -45px;
+    width: 120px;
+    height: 50px;
+}
+.logo-play-go{
+    background-position: -315px -225px;
+    width: 100px;
+    height: 50px;
+}
+.ng-binding p {
+    font-size: 9px;
+    font-weight: 300;
+    font-family: $mainFont;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+.contCentherFooter{
+    text-align: center;
+}
+.contCentherFooter .line-logos{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.contCentherFooter .line-logos img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contCentherFooter .line-logos2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contCentherFooter .line-logos2 img{
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contCentherFooter .white-logos{
+    margin-top: 10px;
+}
+.contCentherFooter .white-logos img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.subContentFooter{
+    display: table;
+    margin: 0 auto;
+}
+.hvr-bounce-to-bottom:before {
+    background: #eee !important;
+}
+.hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active {
+    color: #23527c !important;
+}
+.nav2 > li > a:hover, .nav2 > li > a:focus{
+    text-decoration: none;
+    background-color: #9A9393;
+
+}
+@media only screen and (max-width:992px){ 
+    .conteinerPosts {
+        margin-top: 35px;
+    }
+    footer .nav > li {
+        position: relative;
+        display: block;
+        text-align: center;
+        float: none;
+    }
+}
+@media only screen and (max-width: 882px){
+    .pleasePlayResponaible{
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .contCentherFooter .white-logos img{
+        height: 25px;
+    }    
+}
+@media only screen and (max-width:768px){
+    .nav.navbar-nav.align-menu {
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 714px){
+    .contCentherFooter .line-logos2 img {
+        height: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .contCentherFooter .line-logos img {
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 685px){
+    .contCentherFooter .white-logos img{
+        height: 20px;
+    } 
+}
+@media only screen and (max-width: 611px){
+    .contCentherFooter .white-logos img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 545px){
+    .contCentherFooter .white-logos img {
+        height: 17px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .alignnone{
+        height: 40px;
+        width: auto;
+        margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .pleasePlayResponaible {
+        margin-bottom: 60px;
+    }
+}
+@media only screen and(max-width: 470px){
+    .contCentherFooter .line-logos img {
+        height: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .contCentherFooter .line-logos2 img {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+@media only screen and (max-width: 466px){
+    .contCentherFooter .white-logos img {
+        height: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .alignnone{
+        height: 30px;
+    }
+}
+@media  only screen and (max-width:396px){
+    .contCentherFooter .white-logos img {
+        height: 12px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+}
+@media only screen and (max-width: 345px){
+    .contCentherFooter .white-logos img {
+        height: 11px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .alignnone{
+        height: 25px;
+    }
+}
+@media only screen and(max-width: 315px){
+    .contCentherFooter .line-logos img {
+        height: 20px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .contCentherFooter .white-logos img {
+        height: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .alignnone{
+        height: 20px;
+    }
+}
+
+#jconfirm-box62606 {
+    line-height: initial !important;
+}

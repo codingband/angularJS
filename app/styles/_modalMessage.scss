@@ -1,0 +1,128 @@
+/*both*/
+.modal {
+    font-family: $mainFont !important;
+    font-size: 12px !important;
+}
+.successMessage, .errorMessage{
+    min-height: 200px;
+    height: 100%;
+    @include border-radius(6px);
+    border: none;
+}
+.successMessage .modalMessageTitle, .errorMessage .modalMessageTitle{
+    @include border-radius(0px);
+    height: 33px;
+    display: table;
+    width: 100%;
+    padding: 0 0 0 40px;
+    font-weight: 400;
+}
+.successMessage .modalMessageTitle h3, .errorMessage .modalMessageTitle h3{
+    text-transform: none;
+    font-weight: 600;
+    font-family: $mainFont;
+    font-size: 17px !important;
+    color: $viksColor;
+    line-height: 21px;
+    margin-top:9px;   
+}
+/*Success Message*/
+.successMessage{
+    background: $viksColor;
+    color: #fff;
+} 
+.successMessage img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 115px;
+}
+.errorMessage{
+    background: $viksColor;
+    color: #fff;
+}
+.errorMessage .contentMessage img{
+    display: none;
+}
+.successMessage .contentMessage img{
+    display: block;
+}
+.successMessage .modalMessageTitle{
+    text-align: center;
+    padding: 0;
+}
+.successMessage .modalMessageTitle, .errorMessage .modalMessageTitle{
+    background: #fff;
+}
+.successMessage .contentMessage div{   
+    padding: 25px;
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 20px 130px 32px 130px;   
+}
+.errorMessage .contentMessage div{   
+    padding: 25px;
+    text-align: center;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+/*Error Message*/
+.errorMessage .modalMessageTitle{
+    color: $red;
+}
+.closeErrorButton {  
+    width: 180px;
+    height: 33px;
+    color: #222;
+    cursor: pointer;
+    border: none;
+    @include border-radius(4px);
+    font-weight: 600;
+    background-color: $brightButtonBG;
+    margin: 25px auto;
+    line-height: 30px;
+    font-size: 12px;
+    outline: none;
+}
+.errorMessage  button{
+    display: block;
+}
+.successMessage  button{
+    display: none;
+}
+.successMessage button.button-blue.deposit-succes-ok {
+    display: block !important;
+    margin: 15px auto;
+    width: 100px; 
+}
+@media only screen and(max-width: 768px){
+    .errorMessage .contentMessage div {
+        font-size: 13px !important;
+    }
+    .successMessage .contentMessage div {
+        font-size: 13px !important;    
+        margin: 20px 30px 32px 23px;
+    }
+}
+@media only screen and(max-width: 450px){
+    .successMessage .contentMessage div {
+        margin: 20px 50px 32px 90px;
+    }
+}
+@media only screen and(max-width: 400px){
+    .errorMessage .contentMessage div {
+        font-size: 12px !important;
+    }
+    .successMessage .contentMessage div {
+        font-size: 12px !important;
+    }
+}
+@media only screen and(max-width: 350px){
+    .errorMessage .contentMessage div {
+        font-size: 11px !important;
+    }
+    .successMessage .contentMessage div {
+        font-size: 11px !important;
+    }
+}

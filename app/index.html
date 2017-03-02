@@ -1,0 +1,273 @@
+<!doctype html>
+<html ng-app="cyberplayerThemeV20App">
+  <head>
+     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="fragment" content="!"> 
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="bower_components/hover/css/hover.css" />
+    <link rel="stylesheet" href="bower_components/Swiper/dist/css/swiper.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link rel="stylesheet" href="bower_components/odometer/themes/odometer-theme-car.css"/>
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/flag-icon.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <base href="/index.html" />
+  </head>
+  <body>
+      
+    
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/autobahnjs/autobahn.js"></script>
+    <script src="bower_components/blockUI/jquery.blockUI.js"></script>
+    <script src="bower_components/vticker/jquery.vticker.js"></script>
+    <script src="bower_components/vticker/angular.vticker.js"></script>
+    <script src="bower_components/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/jquery-confirm2/dist/jquery-confirm.min.js"></script>
+    <script src="bower_components/recaptcha_ajax/recaptcha_ajax.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
+    <script src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="bower_components/angular-base64/angular-base64.js"></script>
+    <script src="bower_components/jq-fullscreen/release/jquery.fullscreen.min.js"></script>
+    <script src="bower_components/odometer/odometer.js"></script>
+    <script src="bower_components/angular-odometer/dist/angular-odometer.js"></script>
+    <script src="bower_components/Swiper/dist/js/swiper.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script src="https://js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
+    <script src="bower_components/socket.io-client/socket.io.js"></script>
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+     <div data-main-header ></div>
+    <div ng-view></div>
+
+    <!--<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>-->
+    
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/services/common/dataservice.js"></script>
+        <script src="scripts/services/common/i18nservice.js"></script>
+        
+        <script src="scripts/services/common/matrixsportsservice.js"></script>
+        <script src="scripts/services/common/matrixcasinoservice.js"></script>
+        <script src="scripts/services/common/matrixservice.js"></script>
+        <script src="scripts/services/common/mainmatrixservice.js"></script>
+        <script src="scripts/services/common/utilsservice.js"></script>
+        <script src="scripts/services/common/wpservice.js"></script>
+        <script src="scripts/filters/totrusted.js"></script>
+        <script src="scripts/controllers/main/aboutus.js"></script>
+        <script src="scripts/controllers/casino/casino.js"></script>
+        <script src="scripts/directives/main/mainheader.js"></script>
+        <script src="scripts/controllers/main/mainheader.js"></script>
+        <script src="scripts/directives/main/topmenu.js"></script>
+        <script src="scripts/directives/main/casinoaboutuspostone.js"></script>
+        <script src="scripts/controllers/main/aboutuspost1.js"></script>
+        <script src="scripts/directives/main/footercyberplay.js"></script>
+        <script src="scripts/controllers/main/footer.js"></script>
+        <script src="scripts/directives/main/clockpanel.js"></script>
+        <script src="scripts/controllers/main/clockpanel.js"></script>
+        <script src="scripts/directives/main/countries.js"></script>
+        <script src="scripts/controllers/main/countries.js"></script>
+
+        
+        <script src="scripts/controllers/main/header.js"></script>
+        <script src="scripts/directives/main/signupmenu.js"></script>
+        <script src="scripts/controllers/main/signup.js"></script>
+        <script src="scripts/directives/news/contentnews.js"></script>
+        <script src="scripts/controllers/news/contentnews.js"></script>
+        <script src="scripts/controllers/news/news.js"></script>
+        <script src="scripts/directives/news/rightmenunews.js"></script>
+        <script src="scripts/controllers/news/rightmenunews.js"></script>
+        <script src="scripts/directives/casino/salesareacasinohome.js"></script>
+        <script src="scripts/controllers/casino/salesarea.js"></script>
+        <script src="scripts/directives/casino/casinogamecontent.js"></script>
+        <script src="scripts/controllers/casino/casinogamecontent.js"></script>
+        <script src="scripts/directives/casino/gamecategory.js"></script>
+        <script src="scripts/controllers/casino/gamecategory.js"></script>
+        <script src="scripts/controllers/casino/tripvegas.js"></script>
+        <script src="scripts/directives/casino/casinosubmenuheader.js"></script>
+        <script src="scripts/controllers/casino/casinosubmenuheader.js"></script>
+        <script src="scripts/directives/casino/slidercasinohome.js"></script>
+        <script src="scripts/controllers/casino/slidercasino.js"></script>
+        <script src="scripts/controllers/casino/promotions.js"></script>
+        <script src="scripts/directives/casino/casinonavbar.js"></script>
+        <script src="scripts/controllers/casino/navbarcasino.js"></script>
+        <script src="scripts/directives/casino/iframecontainer.js"></script>
+        <script src="scripts/controllers/casino/iframecontainer.js"></script>
+        <script src="scripts/directives/casino/headergame.js"></script>
+        <script src="scripts/controllers/casino/headergame.js"></script>
+        <script src="scripts/controllers/casino/gamepage.js"></script>
+        <script src="scripts/directives/casino/gamelist.js"></script>
+        <script src="scripts/controllers/casino/gamelist.js"></script>
+        <script src="scripts/directives/casino/oncarouselchange.js"></script>
+        <script src="scripts/directives/casino/autocomplete.js"></script>
+        <script src="scripts/controllers/main/aboutuspost1.js"></script>
+        <script src="scripts/directives/main/accountstatement.js"></script>
+        <script src="scripts/controllers/main/accountstatement.js"></script>
+        <script src="scripts/controllers/main/accountdetails.js"></script>
+        <script src="scripts/controllers/main/aboutus.js"></script>
+        <script src="scripts/directives/main/addbonus.js"></script>
+        <script src="scripts/controllers/main/addbonus.js"></script>
+        <script src="scripts/directives/main/balancetab.js"></script>
+        <script src="scripts/controllers/main/balancetab.js"></script>
+        <script src="scripts/controllers/main/bettingrules.js"></script>
+        <script src="scripts/directives/main/bonushistory.js"></script>
+        <script src="scripts/controllers/main/bonushistory.js"></script>
+        <script src="scripts/controllers/main/bonusterms.js"></script>
+        <script src="scripts/controllers/main/sportsbonusterms.js"></script>
+        <script src="scripts/directives/main/bonusestab.js"></script>
+        <script src="scripts/controllers/main/bonusestab.js"></script>
+        <script src="scripts/controllers/main/contactus.js"></script>
+        <script src="scripts/directives/main/currentbonuses.js"></script>
+        <script src="scripts/controllers/main/currentbonuses.js"></script>
+        <script src="scripts/controllers/main/emailverificationneeded.js"></script>
+        <script src="scripts/controllers/main/faq.js"></script>
+        <script src="scripts/controllers/main/forgotpassword.js"></script>
+        <script src="scripts/directives/main/gametransaction.js"></script>
+        <script src="scripts/controllers/main/gametransaction.js"></script>
+        <script src="scripts/controllers/main/help.js"></script>
+        <script src="scripts/directives/main/helppanel.js"></script>
+        <script src="scripts/controllers/main/helppanel.js"></script>
+        <script src="scripts/controllers/main/kyctab.js"></script>
+        <script src="scripts/directives/main/kyctab.js"></script>
+        <script src="scripts/controllers/main/limits.js"></script>
+        <script src="scripts/directives/main/limits.js"></script>
+        <script src="scripts/directives/main/limitstab.js"></script>
+        <script src="scripts/controllers/main/limitstab.js"></script>
+        <script src="scripts/controllers/main/login.js"></script>
+        <script src="scripts/controllers/main/messagecongratulations.js"></script>
+        <script src="scripts/controllers/main/messagenewemail.js"></script>
+        <script src="scripts/controllers/main/mobile.js"></script>
+        <script src="scripts/controllers/main/modalinstance.js"></script>
+        <script src="scripts/controllers/main/modalmessage.js"></script>
+        <script src="scripts/controllers/main/myaccountdetails.js"></script>
+        <script src="scripts/directives/main/myaccountdetails.js"></script>
+        <script src="scripts/directives/main/transationtab.js"></script>
+        <script src="scripts/controllers/main/transactiontab.js"></script>
+        <script src="scripts/directives/main/casinotermsconditions.js"></script>
+        <script src="scripts/controllers/main/termsandconditions.js"></script>
+        <script src="scripts/directives/main/sliderhome.js"></script>
+        <script src="scripts/controllers/main/sliderhome.js"></script>
+        <script src="scripts/directives/main/setlimit.js"></script>
+        <script src="scripts/controllers/main/setlimit.js"></script>
+        <script src="scripts/directives/main/selfexclusion.js"></script>
+        <script src="scripts/controllers/main/selfexclusion.js"></script>
+        <script src="scripts/controllers/main/securitypage.js"></script>
+        <script src="scripts/controllers/main/security.js"></script>
+        <script src="scripts/controllers/main/rules.js"></script>
+        <script src="scripts/directives/main/casinoresponsiblegambling.js"></script>
+        <script src="scripts/controllers/main/responsiblegambling.js"></script>
+        <script src="scripts/directives/payments/bankwithdraw.js"></script>
+        <script src="scripts/controllers/payments/bankwithdraw.js"></script>
+        <script src="scripts/controllers/payments/depositcreditcardpayment.js"></script>
+        <script src="scripts/controllers/payments/depositfundsend.js"></script>
+        <script src="scripts/controllers/payments/depositneteller.js"></script>
+        <script src="scripts/controllers/payments/depositpayment.js"></script>
+        <script src="scripts/controllers/payments/depositpaymentwithoutamount.js"></script>
+        <script src="scripts/controllers/payments/depositpaymentsmodal.js"></script>
+        <script src="scripts/controllers/payments/depositskrill.js"></script>
+        <script src="scripts/controllers/payments/depositukash.js"></script>
+        <script src="scripts/directives/payments/existbankaccount.js"></script>
+        <script src="scripts/controllers/payments/existbankwithdraw.js"></script>
+        <script src="scripts/directives/payments/existcreditcard.js"></script>
+        <script src="scripts/controllers/payments/existcreditcard.js"></script>
+        <script src="scripts/directives/payments/listdepositcyberplay.js"></script>
+        <script src="scripts/controllers/payments/listdepositpayments.js"></script>
+        <script src="scripts/directives/payments/listwithdrawcyberplay.js"></script>
+        <script src="scripts/controllers/payments/listwithdrawpayments.js"></script>
+        <script src="scripts/controllers/payments/messagecanceltransaction.js"></script>
+        <script src="scripts/controllers/payments/redirectform.js"></script>
+        <script src="scripts/directives/payments/newbankaccount.js"></script>
+        <script src="scripts/controllers/payments/registerbankwithdraw.js"></script>
+        <script src="scripts/directives/payments/newcreditcard.js"></script>
+        <script src="scripts/controllers/payments/registercreditcard.js"></script>
+        <script src="scripts/directives/payments/creditcardwithdraw.js"></script>
+        <script src="scripts/controllers/payments/withdrawcreditcard.js"></script>
+        <script src="scripts/directives/payments/netellerwithdraw.js"></script>
+        <script src="scripts/controllers/payments/withdrawneteller.js"></script>
+        <script src="scripts/controllers/payments/withdrawpayment.js"></script>
+        <script src="scripts/directives/payments/skrillwithdraw.js"></script>
+        <script src="scripts/controllers/payments/withdrawskrill.js"></script>
+
+        <script src="scripts/controllers/main/resetpassword.js"></script>
+        <script src="scripts/controllers/main/registeruser.js"></script>
+        <script src="scripts/directives/main/profiletab.js"></script>
+        <script src="scripts/controllers/main/profile.js"></script>
+        <script src="scripts/controllers/main/gamingenviroment.js"></script>
+        <script>
+            cyberPlayLocalized = {};
+            //cyberPlayLocalized.urlhome = "http://cyberplay.local/";
+            cyberPlayLocalized.urlhome = "https://www.viks.com/";
+            //cyberPlayLocalized.urlhome = "https://cyberplay.lioncreeksoftware.com/";
+            cyberPlayLocalized.views = "../";
+            cyberPlayLocalized.images = "images/";
+            //Iovation - basic configurations must be on page before snare.js   
+            var io_bbout_element_id = 'iovationBlackBox';
+            var io_install_stm = false;
+            var io_exclude_stm = 12;
+            var io_install_flash = false;
+            var io_enable_rip = true;
+        </script>
+        
+
+        <script src="scripts/controllers/marketing/de.js"></script>
+        <script src="scripts/controllers/marketing/en.js"></script>
+        <script src="scripts/controllers/marketing/fi.js"></script>
+        <script src="scripts/controllers/marketing/gb.js"></script>
+        <script src="scripts/controllers/marketing/no.js"></script>
+        <script src="scripts/controllers/marketing/row.js"></script>
+        <script src="scripts/controllers/marketing/se.js"></script>
+        <script src="scripts/controllers/marketing/sv.js"></script>
+        <script src="scripts/controllers/main/affiliates.js"></script>
+        <script src="scripts/controllers/main/home.js"></script>
+
+        <script src="scripts/controllers/payments/withdrawecopayz.js"></script>
+        <script src="scripts/directives/payments/ecopayzwithdraw.js"></script>
+        <script src="scripts/controllers/payments/withdrawtrustly.js"></script>
+        <script src="scripts/directives/payments/trustlywithdraw.js"></script>
+        <script src="scripts/controllers/casino/marketingpage.js"></script>
+        <script src="scripts/controllers/payments/payments.js"></script>
+        <script src="scripts/controllers/main/realitychecktab.js"></script>
+        <script src="scripts/directives/main/realitychecktab.js"></script>
+        <script src="scripts/controllers/sports/sport.js"></script>
+        
+        <script src="scripts/controllers/main/errorpage404.js"></script>
+
+        <!-- endbuild -->
+        
+</body>
+</html>
